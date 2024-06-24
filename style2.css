@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 60px); 
+    padding: 7px 0 0 35px; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.footer {
+    margin-top: auto; 
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.formularioinicio {
+    background-color:#997266 ;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h3{
+    font-size: 15px;
+    padding: 5px;
+}
+
+.casilla {
+    padding: 10px;
+    background-color: #cbb2aa;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn6 {
+    display: inline-block;
+    padding: 11px ;
+    background-color: #111111;
+    color: #f5f5f5;
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+}
+
+/*mensajes captcha*/
+.mensajes{
+    margin: 0;
+    padding: 0;
+}
+
+.mensajecaptcha {
+    color: #6a1f05;
+    visibility: hidden;
+    position: absolute;
+}
+.mensajenombre {
+    color: #6a1f05;
+    visibility: hidden;
+    position: absolute;
+
+}
+.mensajeemail {
+    color: #6a1f05;
+    visibility: hidden;
+    position: absolute;
+
+}
+.mensajecontraseña {
+    color: #6a1f05;
+    visibility: hidden;
+    position: absolute;
+
+}
+
+.mensajecaptcha.error {
+    visibility: visible;
+    position: relative;
+}
+.mensajenombre.error {
+    visibility: visible;
+    position: relative;
+}
+.mensajeemail.error{
+    visibility: visible;
+    position: relative;
+}
+.mensajecontraseña.error {
+    visibility: visible;
+    position: relative;
+}
+
+/*Horarios*/
+
+/* Agrega estas reglas en tu archivo CSS (style.css o style2.css) */
+
+/* Estilo para las filas de la tabla */
+

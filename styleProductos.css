@@ -1,0 +1,52 @@
+.PagProductos {
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 15% 0; 
+    gap: 20px;
+    justify-content: center; 
+}
+
+.ImgPag {
+    width: 100%; 
+    max-width: 400px; 
+    margin: auto; 
+    box-shadow: 10px 0 10px rgba(0, 0, 0);
+}
+
+.ContenidoPag {
+    width: 100%; 
+    text-align: left;
+    max-width: 600px; 
+}
+.footer2 {
+    margin-top: auto; 
+}
+
+.ContenidoPag h1, .precio {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn-2 {
+    display: block;
+    margin: 20px auto 40px auto; 
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+
+@media (min-width: 768px) {
+    .PagProductos {
+        justify-content: space-between; 
+        align-items: center; 
+        margin: 7% 0 0 0;
+    }
+
+    .ImgPag {
+        width: 80%; 
+    }
+    .ContenidoPag {
+        width: 55%;
+    }
+    
+}

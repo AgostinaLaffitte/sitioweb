@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+body{
+    background-color: #cab8a2;
+    font-family: 'Oswald', sans-serif;
+    
+}
+a{
+    color: #111111;
+}
+
+*{
+    margin: 0 auto;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*-css del header*/
+
+.btn4{
+    background: none;
+    border: none;
+}
+
+.container, img {
+    max-width: 768px;
+    align-items: center;
+}
+
+header{
+    background: #997266;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#Claro{
+    width: 20px;
+    margin: 15px 0;
+}
+.btn4 {
+    width: 20px;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.labelmenu {
+    border: none;
+    background: none;
+}
+
+.navbar.naVisible{
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color:#997266;
+    padding: 2rem;
+    width: 20%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.botoncerrar {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    font-size: 15px;
+    color: #111111;
+    background-color: rgb(153, 114, 102, .5);
+    border-radius: 50px;
+    border: none;
+    width: 25px;
+    position: absolute;
+    top: 20px;
+    left: 80%;
+}
+
+.imgcerrar {
+    width: 20px;
+}
+
+
+.hamburg{
+    display:flex;
+    flex-direction: column;
+    padding: 2px;
+    font-size: 18px;
+}
+
+.usuario {
+    display: n;
+}
+.navbar ul li {
+    margin: 18px 0;
+    
+}
+
+.navbar ul li a {
+    color: #111111;
+}
+
+.logo {
+    font-size: 25px;
+    color: #111111;
+    text-transform: uppercase;
+    font-weight: 800;
+    justify-content: center;
+    width: 768px;
+    text-align: center;
+}
+
+.imgproductos {
+    width: 13px;
+}
+
+.menuprod {
+    margin: 18px 0;
+    color: #111111;
+}
+
+.menuprod #menuP {
+    display: none;
+}
+
+.menuprod:hover #menuP {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background-color: #997266;
+    padding: 15px;
+    min-width: 20%;
+}
+
+.labeluser {
+    display: flex;
+    align-items: center;
+}
+
+.submenu2 {
+    position: relative;
+    display: flex;
+    padding: 10px;
+}
+
+#usuario a {
+    color: #111111;
+}
+
+.submenu2 #usuario {
+    display: none;
+}
+
+.submenu2:hover #usuario {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background-color: #997266;
+    padding: 15px;
+    min-width: 20%;
+}
+
+.submenu {
+    position: relative;
+    display: flex;
+    padding: 10px;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu .carrito {
+    padding: 0;
+    margin: 0;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+    backdrop-filter: blur(5px);
+    top: 100%;
+    z-index: 1;
+    background-color: #997266;
+    padding: 15px;
+    min-width: 400px;
+}
+
+table{
+    width: 100%;
+}
+
+th, td {
+    color: #F5F5F5;
+}
+
+.borrar {
+    background-color: #11111111;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#cuentacarrito {
+    background-color: #cfb79b;
+    color: #111111;
+    border-radius: 100%;
+    display: inline-block;
+    width: 13px;
+    aspect-ratio: 1;
+    font-size: 13px;
+    height: 20px;
+    text-align: center;
+}
+
+
+
+/*Css de Oferta*/
+
+.oferta-content {
+    width: 100%;
+    margin: 0 20px;
+}
+
+.oferta {
+    background-color: #F5F5F5;
+    max-width: 768px;
+    margin: 85px 10px 10px 10px;
+}
+
+.ofertaT {
+    text-align: center;
+    padding: 10px;
+    flex-basis: 100%;
+}
+
+.ofertaT h1 {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+}
+
+.ofertaT p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-2{
+    padding: 7px 10px;
+    background-color: #111111;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 13px;
+    margin: 10px;
+    border: none;
+}
+
+/* Css de Productos */
+
+.productos {
+  
+    text-align: center;
+    align-items: center;
+}
+
+.productos h2 {
+    color: #111111;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.producto img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.producto h3 {
+    font-size: 20px;
+    color: #111111;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.producto p, .precio{
+    font-size: 16px;
+    color: #111111;
+    margin-bottom: 10px;
+}
+
+.precio {
+    font-family: 800;
+}
+.producto-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+}
+.producto {
+    padding: 30px;
+    width: 249px;
+    box-shadow: 10px 0 10px rgb(0, 0, 0.1);
+}
+
+/*Css del footer*/
+
+.footer {
+    padding: 20px;
+    background-color: #111111;
+    margin: 10% 0 0 0 ;
+    width: 100%;
+    
+   
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.footer-content div{
+    margin: 5% 0 5% 0 ;
+    text-align: center;
+}
+
+.link h3{
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.link a {
+    font-size: 16px;
+    color: #DCDCDC;
+    display: block;
+    margin-bottom: 10px;
+}
+.hidden {
+    display: none;
+}
+#T-form {
+ text-align: center;
+ margin: 5px;
+}
+#contenedor-form{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+
+@media( width >= 768px ){
+
+    /*Css resposive del menu*/
+
+    .labelmenu {
+        display: none;
+    }
+
+    .logo {
+        margin: 0;
+        width: 15%;
+    }
+
+    .navbar {
+        visibility: visible;
+        opacity: 1;
+        bottom: unset;
+        background: none;
+        position: absolute;
+        padding: 0;
+        display: flex;
+        left: 35%;
+        top: unset;
+    }
+
+    .hamburg {
+        flex-direction: row;
+    }
+
+    .navbar ul li a {
+        padding: 0;
+        font-size: 20px;
+        margin: 0 50px 0 0 ;
+       font-weight: 600;
+    }
+    
+    .labeluser {
+        margin: 0 0 0 160%;
+    }
+
+    .botoncerrar {
+        display: none;
+    }
+    
+    .container {
+        max-width: none;
+    }
+
+    /*Css de las ofertas en resposive*/
+
+    .oferta-content {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ofertaT h1{
+        font-size: 90px;
+    }
+
+  
+
+    /*Css de productos en responsive*/
+    .productos h2 {
+        font-size: 50px;
+    }
+
+    .producto-content{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+    }
+
+    .producto {
+        padding: 20px 60px;
+    }
+
+    .footer{
+        position: static;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .footer-content div {
+        margin: 5% 10% 10% 5%;
+    }
+    th {
+        background-color: #997266;
+        width: 200px;
+    }
+    
+    td{
+        color: #997266;
+        padding: 10px;
+        width: 200px;
+    }
+    
+    tr {
+        height: 100px;
+        background-color: #faf1ee;
+    }
+    
+    .primColor {
+        background-color: #fce3da;
+    }
+}
+
+.ModoOscuro{
+    background-color: #252525;
+    color: #ffffff;
+    a, h1, p, h2,h3, #usuario a, .navbar ul li a   {
+        color: #FFFFFF;
+    }
+    header {
+        background: #4a3c73;
+        color: white;
+    }
+
+    .ofertaT, .oferta-1,  #cuentacarrito,.botoncerrar {
+        background-color: #4a3c73;
+        color: #ffffff;
+    }
+    .btn-2, .btn1{
+        background: #FFFFFF;
+        color: #111111;
+        border: none;
+
+    }
+    .navbar.naVisible ,.submenu:hover #carrito ,.submenu2:hover #usuario, .formularioinicio  {
+        background-color:  #4a3c73;
+        color: white;
+    }
+    .carrito{
+        width: 50px;
+   }
+   #Ulcarritto{
+    width: 20px;
+   }
+
+   #cuentacarrito {
+    position: relative;
+    top: 10px;
+    right: 10px;
+   }
+
+   .submenu {
+    padding: 0;
+   }
+
+   table, th, td {
+    border: 2px solid #252525;
+   }
+
+   th {
+    background-color: #4a3c73;
+   }
+
+   td {
+    color: #4a3c73;
+   }
+
+   tr {
+    background-color: #b2acc4;
+   }
+
+   .primColor {
+    background-color: #d8d7d9;
+   }
+}
+
+.Horarios{
+    margin: 10% 0 0 0;
+}
+
+
+table, th, td {
+    border: 2px solid #cab8a2;
+    border-collapse: collapse;
+    font-family: 'Oswald', sans-serif;
+}
+
+th {
+    background-color: #997266;
+    width: 200px;
+}
+
+td{
+    color: #997266;
+    padding: 10px;
+    width: 200px;
+}
+
+tr {
+    height: 100px;
+    background-color: #faf1ee;
+}
+
+.mainHorarios {
+    align-content: center;
+}
